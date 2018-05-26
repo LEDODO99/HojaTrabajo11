@@ -10,5 +10,10 @@ package hojatrabajo11;
  * @author ledod
  */
 public class Node {
+    String nombre;
+
+    public Node(String nombre) {
+        this.nombre = nombre;
+    }
     
 }
