@@ -1,0 +1,22 @@
+Guatemala, Guastatoya, 92
+Guatemala, Retalhuleu, 190
+Guatemala, Escuintla, 59
+Guatemala, Quetzaltenango, 201
+Guastatoya, Teculutan, 50
+Teculutan, Puerto Barrios, 172
+Puerto Barrios, Flores, 282
+Guatemala, Coban, 212
+Retalhuleu, Escuintla, 132
+Coban, Flores, 266
+Coban, Guastatoya, 139
+Guastatoya, Guatemala, 92
+Retalhuleu, Guatemala, 190
+Escuintla, Guatemala, 59
+Quetzaltenango, Guatemala, 201
+Teculutan, Guastatoya, 50
+Puerto Barrios, Teculutan, 172
+Flores, Puerto Barrios, 282
+Coban, Guatemala, 212
+Escuintla, Retalhuleu, 132
+Flores, Coban, 266
+Guastatoya, Coban, 139

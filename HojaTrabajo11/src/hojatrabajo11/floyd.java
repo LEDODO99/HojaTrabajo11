@@ -1,4 +1,5 @@
- void floyd(int graph[][])
+public class floyd{
+void floyd(int graph[][])
     {
         int dist[][] = new int[V][V];
         int i, j, k;
@@ -40,3 +41,4 @@
         // Print the shortest distance matrix
         printSolution(dist);
     }
+}

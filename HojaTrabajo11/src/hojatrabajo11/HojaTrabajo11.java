@@ -32,8 +32,10 @@ public class HojaTrabajo11 {
    
         String textoTraducido = "";
 
+        GraphImplementacion grafo=new GraphImplementacion();
+        
         System.out.println("ESCOGER DICCIONARIO");
-        ingreso.nextLine();
+        //ingreso.nextLine();
       
         JFileChooser chooser = new JFileChooser();
         chooser.setCurrentDirectory(new java.io.File("./src"));
@@ -54,14 +56,20 @@ public class HojaTrabajo11 {
 
                 /* Separar cadenas y hacer asociacion */
                 for (int i = 0; i < dictionary.size(); i++) {
-                    String temp = dictionary.get(i).substring(1, dictionary.get(i).length() - 1);
+                    String temp = dictionary.get(i).substring(0, dictionary.get(i).length() - 1);
                     String[] partes = temp.split(", ");
-                    //ingresar aqui codigo de insercion en grafo
+                    Node nodo1=new Node(partes[0]);
+                    Node nodo2=new Node(partes[1]);
+                    int peso=Integer.parseInt(partes[2]);
+                    grafo.addNode(nodo1);
+                    grafo.addNode(nodo2);
+                    grafo.addConection(nodo1, nodo2, peso);
                 }
             } catch (Exception e) {
                 System.out.println("Archivo no valido!!!");
             }
         }
+        ingreso.nextLine();
     }
     
 }

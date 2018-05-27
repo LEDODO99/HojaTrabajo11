@@ -10,12 +10,10 @@ package hojatrabajo11;
  * @author ledod
  */
 public class Connection {
-    Node nodeInicial;
-    Node nodeFinal;
-    float peso;
+    protected Node nodeFinal;
+    protected int peso;
 
-    public Connection(Node nodeInicial, Node nodeFinal, float peso) {
-        this.nodeInicial = nodeInicial;
+    public Connection( Node nodeFinal, int peso) {
         this.nodeFinal = nodeFinal;
         this.peso = peso;
     }
