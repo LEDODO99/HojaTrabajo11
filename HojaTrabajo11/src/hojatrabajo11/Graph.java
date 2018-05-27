@@ -6,8 +6,8 @@
 package hojatrabajo11;
 
 /**
- *
- * @author ledod
+ * Interfas base para treabajar con grafos
+ * @author Luis Delgado 17187
  */
 public interface Graph<E> {
     public abstract void addNode(Node nodo);

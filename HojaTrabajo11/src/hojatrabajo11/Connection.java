@@ -6,13 +6,17 @@
 package hojatrabajo11;
 
 /**
- *
- * @author ledod
+ * Clase que contiene las conecciones que apuntan a un nodo con el peso de la coneccion
+ * @author Luis Delgado 17187 
  */
 public class Connection {
     protected Node nodeFinal;
     protected int peso;
-
+    /**
+     * Constructor
+     * @param nodeFinal El nodo al que apunta
+     * @param peso El peso de la coneccion
+     */
     public Connection( Node nodeFinal, int peso) {
         this.nodeFinal = nodeFinal;
         this.peso = peso;
